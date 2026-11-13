@@ -3,6 +3,16 @@ from dataclasses import dataclass
 from drafter import *
 from bakery import assert_equal
 
+#Prep to Deploy
+set_website_title("Chemistry Helper")
+set_site_information(
+    author="Izzie Manicone",
+    description="Get help with basic chemistry operations",
+    sources="Thanks to my drafter docs, mmy friends, google, and Dr Barts Chat Bot",
+    planning=["plan.pdf", "design.pdf"],
+    links=["https://github.com/your-username/your-repository"]
+)
+
 #Dictionary of Elements
 ATOMIC_MASSES = {
     "H": 1.008,
